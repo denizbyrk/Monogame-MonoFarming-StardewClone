@@ -1,0 +1,623 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Data/ItemData/ItemData.json
+/copy:Data/ItemData/ItemData.json
+
+#begin Data/ToolData/ToolData.json
+/copy:Data/ToolData/ToolData.json
+
+#begin Effects/Regular Light.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Effects/Regular Light.png
+
+#begin Effects/Soft Light.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Effects/Soft Light.png
+
+#begin Effects/Strong Light.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Effects/Strong Light.png
+
+#begin Font/DescriptionFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=NoChange
+/build:Font/DescriptionFont.spritefont
+
+#begin Font/Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=NoChange
+/build:Font/Font.spritefont
+
+#begin Map Data/Farm/farmMap_Background.csv
+/copy:Map Data/Farm/farmMap_Background.csv
+
+#begin Map Data/Farm/farmMap_Cliffs.csv
+/copy:Map Data/Farm/farmMap_Cliffs.csv
+
+#begin Map Data/Farm/farmMap_Cliffs2.csv
+/copy:Map Data/Farm/farmMap_Cliffs2.csv
+
+#begin Map Data/Farm/farmMap_CliffsDetails.csv
+/copy:Map Data/Farm/farmMap_CliffsDetails.csv
+
+#begin Map Data/Farm/farmMap_Collisions.csv
+/copy:Map Data/Farm/farmMap_Collisions.csv
+
+#begin Map Data/Farm/farmMap_Front.csv
+/copy:Map Data/Farm/farmMap_Front.csv
+
+#begin Map Data/Farm/farmMap_Objects.csv
+/copy:Map Data/Farm/farmMap_Objects.csv
+
+#begin Map Data/Farm/farmMap_Tillable.csv
+/copy:Map Data/Farm/farmMap_Tillable.csv
+
+#begin Map Data/Farm/farmMap_Water.csv
+/copy:Map Data/Farm/farmMap_Water.csv
+
+#begin Map Data/Farm/farmMap_WaterAnim.csv
+/copy:Map Data/Farm/farmMap_WaterAnim.csv
+
+#begin Map Data/Forest/forest_Background.csv
+/copy:Map Data/Forest/forest_Background.csv
+
+#begin Map Data/Forest/forest_Cliffs.csv
+/copy:Map Data/Forest/forest_Cliffs.csv
+
+#begin Map Data/Forest/forest_CliffsDetails.csv
+/copy:Map Data/Forest/forest_CliffsDetails.csv
+
+#begin Map Data/Forest/forest_Collisions.csv
+/copy:Map Data/Forest/forest_Collisions.csv
+
+#begin Map Data/Forest/forest_Front.csv
+/copy:Map Data/Forest/forest_Front.csv
+
+#begin Map Data/Forest/forest_Objects.csv
+/copy:Map Data/Forest/forest_Objects.csv
+
+#begin Map Data/Forest/forest_Tillable.csv
+/copy:Map Data/Forest/forest_Tillable.csv
+
+#begin Map Data/House/house_Collisions.csv
+/copy:Map Data/House/house_Collisions.csv
+
+#begin Map Data/House/house_Decorations.csv
+/copy:Map Data/House/house_Decorations.csv
+
+#begin Map Data/House/house_DecorationsFront.csv
+/copy:Map Data/House/house_DecorationsFront.csv
+
+#begin Map Data/House/house_Floor.csv
+/copy:Map Data/House/house_Floor.csv
+
+#begin Map Data/House/house_Walls.csv
+/copy:Map Data/House/house_Walls.csv
+
+#begin Map Data/Lake/lake_Background.csv
+/copy:Map Data/Lake/lake_Background.csv
+
+#begin Map Data/Lake/lake_Collisions.csv
+/copy:Map Data/Lake/lake_Collisions.csv
+
+#begin Map Data/Lake/lake_Front.csv
+/copy:Map Data/Lake/lake_Front.csv
+
+#begin Map Data/Lake/lake_Objects.csv
+/copy:Map Data/Lake/lake_Objects.csv
+
+#begin Map Data/Lake/lake_Tillable.csv
+/copy:Map Data/Lake/lake_Tillable.csv
+
+#begin Map Data/Lake/lake_Water.csv
+/copy:Map Data/Lake/lake_Water.csv
+
+#begin Map Data/Mountain/mountain_Background.csv
+/copy:Map Data/Mountain/mountain_Background.csv
+
+#begin Map Data/Mountain/mountain_Cliff1.csv
+/copy:Map Data/Mountain/mountain_Cliff1.csv
+
+#begin Map Data/Mountain/mountain_Cliff2.csv
+/copy:Map Data/Mountain/mountain_Cliff2.csv
+
+#begin Map Data/Mountain/mountain_Cliff3.csv
+/copy:Map Data/Mountain/mountain_Cliff3.csv
+
+#begin Map Data/Mountain/mountain_Cliff4.csv
+/copy:Map Data/Mountain/mountain_Cliff4.csv
+
+#begin Map Data/Mountain/mountain_Cliff5.csv
+/copy:Map Data/Mountain/mountain_Cliff5.csv
+
+#begin Map Data/Mountain/mountain_Cliff6.csv
+/copy:Map Data/Mountain/mountain_Cliff6.csv
+
+#begin Map Data/Mountain/mountain_Collisions.csv
+/copy:Map Data/Mountain/mountain_Collisions.csv
+
+#begin Sounds/BreakStone1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/BreakStone1.wav
+
+#begin Sounds/BreakStone2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/BreakStone2.wav
+
+#begin Sounds/Cell.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Cell.wav
+
+#begin Sounds/ChangeTab.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/ChangeTab.wav
+
+#begin Sounds/CloseDialog.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/CloseDialog.wav
+
+#begin Sounds/CloseMenu.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/CloseMenu.wav
+
+#begin Sounds/Cut.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Cut.wav
+
+#begin Sounds/Day.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Day.wav
+
+#begin Sounds/Harvest.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Harvest.wav
+
+#begin Sounds/Hover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Hover.wav
+
+#begin Sounds/Night.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Night.wav
+
+#begin Sounds/OpenDialog.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/OpenDialog.wav
+
+#begin Sounds/OpenDoor.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/OpenDoor.wav
+
+#begin Sounds/OpenMenu.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/OpenMenu.wav
+
+#begin Sounds/Pickup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Pickup.wav
+
+#begin Sounds/Place.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Place.wav
+
+#begin Sounds/Plant.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Plant.wav
+
+#begin Sounds/Rain.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Rain.wav
+
+#begin Sounds/Step.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Step.wav
+
+#begin Sounds/Step2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Step2.wav
+
+#begin Sounds/StoneStep.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/StoneStep.wav
+
+#begin Sounds/Swap.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Swap.wav
+
+#begin Sounds/Swing.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Swing.wav
+
+#begin Sounds/ToolMissHit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/ToolMissHit.wav
+
+#begin Sounds/UseAxe.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/UseAxe.wav
+
+#begin Sounds/UseHoe.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/UseHoe.wav
+
+#begin Sprites/Buttons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Buttons.png
+
+#begin Sprites/Dialogue Box.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Dialogue Box.png
+
+#begin Sprites/EmptyFrame.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/EmptyFrame.png
+
+#begin Sprites/Energy.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Energy.png
+
+#begin Sprites/Farmer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Farmer.png
+
+#begin Sprites/Indicator.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Indicator.png
+
+#begin Sprites/Inventory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Inventory.png
+
+#begin Sprites/ItemProperties.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/ItemProperties.png
+
+#begin Sprites/Items.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Items.png
+
+#begin Sprites/Logo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Logo.png
+
+#begin Sprites/Mouse Cursor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Mouse Cursor.png
+
+#begin Sprites/Particles.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Particles.png
+
+#begin Sprites/PickedUpItemBox.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/PickedUpItemBox.png
+
+#begin Sprites/Raindrop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Raindrop.png
+
+#begin Sprites/Tile Cursor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Tile Cursor.png
+
+#begin Sprites/Tools.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Tools.png
+
+#begin Sprites/ToolSprites.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/ToolSprites.png
+
+#begin Sprites/Villager.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Villager.png
+
+#begin Tiles/collisionTile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/collisionTile.png
+
+#begin Tiles/Grass.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/Grass.png
+
+#begin Tiles/Ground Objects.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/Ground Objects.png
+
+#begin Tiles/Interior.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/Interior.png
+
+#begin Tiles/Items.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/Items.png
+
+#begin Tiles/Tileset.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/Tileset.png
+

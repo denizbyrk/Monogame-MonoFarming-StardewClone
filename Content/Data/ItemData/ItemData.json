@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 1,
+    "Name": "Wood",
+    "Description": "A sturdy, yet flexible \nplant material with a \nwide variety of uses.",
+    "Type": "Resource",
+    "isStackable": true
+  },
+  {
+    "ID": 2,
+    "Name": "Stone",
+    "Description": "A common material with \nmany uses in crafting \nand building.",
+    "Type": "Resource",
+    "isStackable": true
+  },
+  {
+    "ID": 3,
+    "Name": "Fiber",
+    "Description": "Raw material sourced \nfrom plants.",
+    "Type": "Resource",
+    "isStackable": true
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "ToolID": 101,
+    "Name": "Axe",
+    "Description": "Basic tool for chopping wood. ",
+    "isStackable": false,
+    "canBreak": "Wood"
+  },
+  {
+    "ToolID": 100,
+    "Name": "Pickaxe",
+    "Description": "Basic tool for breaking \nstone and hard objects. ",
+    "isStackable": false,
+    "canBreak": "Stone"
+  },
+  {
+    "ToolID": 102,
+    "Name": "Hoe",
+    "Description": "Basic tool for tilling soil. ",
+    "isStackable": false,
+    "canBreak": "None"
+  },
+  {
+    "ToolID": 103,
+    "Name": "Scythe",
+    "Description": "Basic tool to make cutting \ngrass easier. ",
+    "isStackable": false,
+    "canBreak": "Fiber"
+  }
+]
