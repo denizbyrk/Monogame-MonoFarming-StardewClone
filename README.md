@@ -83,6 +83,65 @@ A Stardew Valley Clone that has been created using C# and Monogame Framework.
   
 **Since I am focused on my career based projects, I don't know if I'll ever implement these. Feel free to fork and contrubuting by implementing these features.**
 
+## Screenshots 
+
+After starting the game, you spawn at Farm Map, in front of your Farm House.
+
+<img src="https://github.com/user-attachments/assets/15cae492-020c-4fc1-a59f-582db2571eea" width="1000">
+
+### Dialogues
+
+<img src="https://github.com/user-attachments/assets/dd16d61f-2547-4262-b4e7-54698574613b" width="270">
+<img src="https://github.com/user-attachments/assets/05cb7ef7-0cb0-4d22-bbee-3a353455c3b9" width="270">
+<img src="https://github.com/user-attachments/assets/510a9503-48e3-4226-b87f-a58ba1d8dcde" width="270">
+
+### Maps
+
+<img src="https://github.com/user-attachments/assets/e008a270-8a51-44b0-9a24-c6b72b5ea352" width="400">
+<img src="https://github.com/user-attachments/assets/3ba8f450-306f-420e-8a48-0c674127167d" width="400">
+<img src="https://github.com/user-attachments/assets/8ee18f8e-e11f-47c4-a887-664473de546b" width="400">
+<img src="https://github.com/user-attachments/assets/b4268b81-46a7-4e9f-8808-cdc2d3c936d4" width="400">
+
+### Inventory
+
+<img src="https://github.com/user-attachments/assets/146e59a8-4e6b-4c12-9f1d-5a56e47359e3" width="400">
+<img src="https://github.com/user-attachments/assets/1ab9555a-9c3b-47d9-91f6-735c10869aee" width="400">
+
+### Tooltips
+
+**Tooltips in main inventory**
+
+<img src="https://github.com/user-attachments/assets/54a68eea-c2a1-4a25-bdd1-7f09a84a9fde" width="500">
+<img src="https://github.com/user-attachments/assets/6eba976e-7a89-408c-bf32-0d2364f87bf6" width="500">
+<img src="https://github.com/user-attachments/assets/a3fcc0ac-39dc-442d-8783-abf998d8a0a3" width="500">
+
+**Tooltips in whole inventory**
+
+<img src="https://github.com/user-attachments/assets/35d43b85-4682-4445-9a77-04ffe439f38b" width="500">
+<img src="https://github.com/user-attachments/assets/960c3386-fbf5-455d-aa6c-5d6e94d3ed60" width="500">
+
+### Rain
+
+<img src="https://github.com/user-attachments/assets/2d641fa8-b836-4810-8672-d5d36f43b1b0" width="1000">
+
+### Day-Night Cycle
+
+<img src="https://github.com/user-attachments/assets/6cdac97a-4cf3-4993-b1de-ae7e27ada80d" width="400">
+<img src="https://github.com/user-attachments/assets/7b7c8c4e-5bb3-4dfc-9853-426d77b28135" width="400">
+<img src="https://github.com/user-attachments/assets/c05df342-dec0-4364-8932-491c52767082" width="400">
+<img src="https://github.com/user-attachments/assets/b829141a-6cff-47ba-a5e0-66f68cb2076f" width="400">
+
+### Energy Usage
+
+<img src="https://github.com/user-attachments/assets/d78d1015-1346-4cb8-8a7d-93b090816aa3" width="100">
+<img src="https://github.com/user-attachments/assets/aee7005c-81e1-4bcf-b946-f5bd922053d8" width="100">
+<img src="https://github.com/user-attachments/assets/b67f8326-4dea-4082-beb1-58c7cdaae15e" width="100">
+<img src="https://github.com/user-attachments/assets/8352a3fd-533c-485a-996b-5b376e22faf5" width="100">
+
+### Debug Mode
+
+<img src="https://github.com/user-attachments/assets/84ac4f43-6754-4a1e-84a4-94ab73715e0d" width="1000">
+
 ## Installation
 
 The following are the instructions for running the code:
