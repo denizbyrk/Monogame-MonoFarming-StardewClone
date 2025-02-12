@@ -102,6 +102,12 @@ After starting the game, you spawn at Farm Map, in front of your Farm House.
 <img src="https://github.com/user-attachments/assets/8ee18f8e-e11f-47c4-a887-664473de546b" width="400">
 <img src="https://github.com/user-attachments/assets/b4268b81-46a7-4e9f-8808-cdc2d3c936d4" width="400">
 
+### Breaking Objects
+
+**Might take some time to load**
+
+<img src="https://github.com/user-attachments/assets/db201940-2f6b-4ffb-b9c0-b3be96e9a4c7" alt="Loading..." width="500">
+
 ### Inventory
 
 <img src="https://github.com/user-attachments/assets/146e59a8-4e6b-4c12-9f1d-5a56e47359e3" width="400">
