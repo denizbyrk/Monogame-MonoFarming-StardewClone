@@ -178,6 +178,18 @@ The following are the instructions for running the code:
 
 - Run the code
 
+**Important**
+
+You may encounter some problems regarding font rendering. Make sure you have Press Start 2P font installed, or the game may not run. If you cannot install it for any reason, you can change the font manually.
+
+To change the font, open the project, navigate throught "Content -> Font -> Font.spritefont". Then, find the font name field and change it to any font you have installed on your computer.
+```
+<FontName>Press Start 2P</FontName>
+```
+Change the "Press Start 2P" to font of your choice.
+
+Don't forget to edit "DescriptionFont.spritefont" file aswell.
+
 ## Controls and How to Use
 
 - Use WASD to move around.
